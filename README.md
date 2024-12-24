@@ -100,24 +100,15 @@ producer prod_2 -> produced data_12345
 producer prod_1 -> produced data_12345
 Consumer consumer_2 consuming data data_1
 Consumer consumer_1 consuming data data_1
-Consumer consumer_1 consumed data data_1
 Consumer consumer_1 consuming data data_12
-Consumer consumer_2 consumed data data_1
 Consumer consumer_2 consuming data data_12
-Consumer consumer_2 consumed data data_12
 Consumer consumer_2 consuming data data_123
-Consumer consumer_1 consumed data data_12
 Consumer consumer_1 consuming data data_123
-Consumer consumer_1 consumed data data_123
-Consumer consumer_2 consumed data data_123
 Consumer consumer_2 consuming data data_1234
 Consumer consumer_1 consuming data data_1234
-Consumer consumer_1 consumed data data_1234
 Consumer consumer_1 consuming data data_12345
-Consumer consumer_2 consumed data data_1234
 Consumer consumer_2 consuming data data_12345
-Consumer consumer_1 consumed data data_12345
-Consumer consumer_2 consumed data data_12345
+
 ```
 
 ---
