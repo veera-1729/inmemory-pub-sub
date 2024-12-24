@@ -35,7 +35,6 @@ func (c *Consumer) Consume() {
 
 			fmt.Printf("Consumer %s consuming data %s\n", c.Name, data)
 			time.Sleep(1 * time.Second)
-			fmt.Printf("Consumer %s consumed data %s\n", c.Name, data)
 
 			c.broker.UpdateOffSet(t, c.Name, offSet)
 
